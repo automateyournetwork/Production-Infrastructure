@@ -137,21 +137,21 @@ host_vrf_lists:
     - BLUE_OPZone
 
 host_vlans:
-  "300":
+   300:
     name: GREEN
 
-  "301":
+   301:
     name: RED
 
-  "302":
+   302:
     name: BLUE
 
-  "303":
+   303:
     name: SECURITY
 
 
 host_spanning_tree_values:
-  "24576":
+   24576:
     - 300-303
 
 host_loopback_interfaces:
