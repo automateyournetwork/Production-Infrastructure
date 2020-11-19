@@ -149,7 +149,6 @@ host_vlans:
    303:
     name: SECURITY
 
-
 host_spanning_tree_values:
    24576:
     - 300-303
@@ -159,13 +158,6 @@ host_loopback_interfaces:
     description: "In-Band Management"
     ip: 172.16.0.1
     subnet_mask: 255.255.255.255
-
-  Loopback111:
-    description: "BLUE Multicast"
-    vrf: BLUE_Zone
-    ip: 10.111.255.254
-    subnet_mask: 255.255.255.255
-    pim: sparse-mode
 
 host_virtual_interfaces:
   Vlan300:
